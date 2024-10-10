@@ -37,7 +37,7 @@ To access the complete norns API, you can either:
 | Module                                                                | Description                                                                                                           |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [arc](arc)                                                            | Connect a script to a hardware [arc](https://monome.org/docs/arc)                                                     |
-| [audio (api)](audio)                                                  | Directly set system audio levels                                                                                      |
+| [audio](audio)                                                        | Directly set system audio levels                                                                                      |
 | [clock](clock)                                                        | Coroutine system which executes functions on beat-synced and free-running schedules                                   |
 | [controlspec](controlspec)                                            | PARAM menu control constructor with presets                                                                           |
 | [crow (api)](/docs/norns/api/modules/crow.html)                       | Connect a script to a hardware [crow](https://monome.org/docs/crow)                                                   |
@@ -57,13 +57,13 @@ To access the complete norns API, you can either:
 | [tab](./lib/tabutil)                                                  | Table utilities                                                                                                       |
 | [util (api)](/docs/norns/api/modules/lib.util.html)                   | Helpful utility functions                                                                                             |
 | [lib/elca (api)](/docs/norns/api/modules/lib.elca.html)               | Elementary cellular automata generator                                                                                |
-| [lib/envgraph (api)](/docs/norns/api/modules/lib.EnvGraph.html)       | Envelope graph drawing module                                                                                         |
+| [lib/envgraph (api)](/docs/norns/api/modules/lib.envgraph.html)       | Envelope graph drawing module                                                                                         |
 | [lib/er](./lib/er)                                                    | Euclidean rhythm generator                                                                                            |
 | [lib/fileselect](./lib/fileselect)                                    | File select utility                                                                                                   |
-| [lib/filtergraph (api)](/docs/norns/api/modules/lib.FilterGraph.html) | Filter graph drawing module                                                                                           |
+| [lib/filtergraph (api)](/docs/norns/api/modules/lib.filtergraph.html) | Filter graph drawing module                                                                                           |
 | [lib/filters (api)](/docs/norns/api/modules/lib.filters.html)         | Value smoother                                                                                                        |
 | [lib/formatters (api)](/docs/norns/api/modules/lib.formatters.html)   | PARAM menu formatter functions                                                                                        |
-| [lib/graph (api)](/docs/norns/api/modules/lib.Graph.html)             | Graph drawing module                                                                                                  |
+| [lib/graph (api)](/docs/norns/api/modules/lib.gRaph.html)             | Graph drawing module                                                                                                  |
 | [lib/intonation](./lib/intonation)                                    | Library of various tunings, including 12 tone and gamuts                                                              |
 | [lib/lattice](./lib/lattice)                                          | Simple and extensible sequencers driven by a superclock                                                               |
 | [lib/lfo](./lib/lfo)                                                  | Single-clock framework for generating movement (beat-synced or free) inside of a script                               |
@@ -75,7 +75,7 @@ To access the complete norns API, you can either:
 | [lib/timeline](./lib/timeline)                                        | Sequence events in time                                                                                               |
 | [lib/textentry](./lib/textentry)                                      | Text entry UI                                                                                                         |
 | [lib/ui](./lib/ui)                                                    | UI widgets module                                                                                                     |
-| [lib/voice](/docs/norns/api/modules/lib.voice.html)                   | Experimental voice allocation module                                                                                  |
+| [lib/voice (api)](/docs/norns/api/modules/lib.voice.html)             | Experimental voice allocation module                                                                                  |
 
 ## folder structure
 
