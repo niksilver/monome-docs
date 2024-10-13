@@ -51,7 +51,11 @@ To access the complete norns API, you can either:
 | [midi](midi)                                                          | Connect a script to MIDI hardware                                                                                     |
 | [norns (api)](/docs/norns/api/modules/norns.html)                     | System utilities                                                                                                      |
 | [osc](osc)                                                            | Connect a script to OSC streams                                                                                       |
-| [params](params)                                                      | Create script parameters, displayed in the PARAMETERS menu                                                            |
+| [params.control](./parameters/control)                                | Granular control over parameter values                                                                                |
+| [params.file](./parameters/file)                                      | An easy way to load files into scripts via parameters                                                                 |
+| [params.number](./parameters/number)                                  | Defines parameters which require discrete incrementing values                                                         |
+| [params.option](./parameters/option)                                  | Select a parameter from a list                                                                                        |
+| [paramset](params)                                                    | Create script parameters, such as in the PARAMETERS menu                                                              |
 | [poll](poll)                                                          | System polling for CPU, incoming/outgoing amplitude, and incoming pitch                                               |
 | [screen (api)](/docs/norns/api/modules/screen.html)                   | Draw to the norns on-board screen                                                                                     |
 | [softcut (api)](/docs/norns/api/modules/softcut.html)                 | Two audio buffers which can be recorded into and played by six individual voices                                      |
