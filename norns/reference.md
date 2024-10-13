@@ -49,13 +49,13 @@ To access the complete norns API, you can either:
 | [keyboard](keyboard)                                                  | Decipher keyboard (typing, not piano) input                                                                           |
 | [metro](metro)                                                        | High-resolution time-based counter                                                                                    |
 | [midi](midi)                                                          | Connect a script to MIDI hardware                                                                                     |
+| [norns (api)](/docs/norns/api/modules/norns.html)                     | System utilities                                                                                                      |
 | [osc](osc)                                                            | Connect a script to OSC streams                                                                                       |
 | [params](params)                                                      | Create script parameters, displayed in the PARAMETERS menu                                                            |
 | [poll](poll)                                                          | System polling for CPU, incoming/outgoing amplitude, and incoming pitch                                               |
 | [screen (api)](/docs/norns/api/modules/screen.html)                   | Draw to the norns on-board screen                                                                                     |
 | [softcut (api)](/docs/norns/api/modules/softcut.html)                 | Two audio buffers which can be recorded into and played by six individual voices                                      |
-| [tab](./lib/tabutil)                                                  | Table utilities                                                                                                       |
-| [util (api)](/docs/norns/api/modules/lib.util.html)                   | Helpful utility functions                                                                                             |
+| [lib/beatclock (api)](/docs/norns/api/modules/lib.beatclock.html)     | Older clock library                                                                                                   |
 | [lib/elca (api)](/docs/norns/api/modules/lib.elca.html)               | Elementary cellular automata generator                                                                                |
 | [lib/envgraph (api)](/docs/norns/api/modules/lib.envgraph.html)       | Envelope graph drawing module                                                                                         |
 | [lib/er](./lib/er)                                                    | Euclidean rhythm generator                                                                                            |
@@ -72,9 +72,11 @@ To access the complete norns API, you can either:
 | [lib/pattern_time](./lib/pattern_time)                                | Timed-event pattern recorder / player                                                                                 |
 | [lib/reflection](./lib/reflection)                                    | Record clock-synced changes to data over time, with variable-rate playback, overdubbing, and pattern management tools |
 | [lib/sequins](./lib/sequins)                                          | Build and modify sequencers + arpeggiators                                                                            |
+| [lib/tabutil](./lib/tabutil)                                          | Table utilities, also available in global variable `tab`                                                              |
 | [lib/timeline](./lib/timeline)                                        | Sequence events in time                                                                                               |
 | [lib/textentry](./lib/textentry)                                      | Text entry UI                                                                                                         |
 | [lib/ui](./lib/ui)                                                    | UI widgets module                                                                                                     |
+| [lib/util (api)](/docs/norns/api/modules/lib.util.html)               | Helpful utility functions, also available in global variable `util`                                                   |
 | [lib/voice (api)](/docs/norns/api/modules/lib.voice.html)             | Experimental voice allocation module                                                                                  |
 
 ## folder structure
