@@ -228,18 +228,18 @@ Scrolling down further, we find some of the script's parameters. These are chose
 
 **To fine-adjust a parameter, hold K3 as you turn E3.** If the parameter is linearly or exponentially scaled (eg. LEVELS > OUTPUT), this will adjust the value by 1/20th of its usual delta step.
 
-### saving presets
+### saving parameter sets {#saving-PSETs}
 
-To recall and build on the changes you've made in a future session, we can save a script's parameter state as a PSET (preset).
+To recall and build on the changes you've made in a future session, we can save a script's parameter state as a PSET (ParameterSET).
 
 ![](/docs/norns/image/play-images/menu-params_pset.png)  
-[*figure 5: saving parameters / PSET*](image/play-images/menu-params_pset.png)
+[*figure 5: saving parameter sets / PSET*](image/play-images/menu-params_pset.png)
 
 Use **E2** to navigate down the left column of the PSET screen.  
 Use **E3** to navigate down the right.  
 The currently loaded PSET will have an asterisk * next to it.
 
-**save preset / PSET**
+**save PSET**
 
 - select `SAVE` and press **K3** to open the naming dialogue
 - use **E3** to switch to the alphabet and **E2** to choose letters
@@ -247,12 +247,12 @@ The currently loaded PSET will have an asterisk * next to it.
 - use **E3** to navigate back to the controls (use **E2** and **K3** on `DEL` to delete a letter)
 - press **K3** on `OK` to save
 
-**load preset / PSET**
+**load PSET**
 
 - select `LOAD` and use **E3** to choose a saved PSET
 - press **K3** to load the selected PSET
 
-**delete preset / PSET**
+**delete PSET**
 
 - select `DELETE` and use **E3** to choose a saved PSET
 - press **K3** to delete the selected PSET

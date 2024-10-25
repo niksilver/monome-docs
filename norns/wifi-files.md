@@ -97,7 +97,7 @@ If filesystem expansion doesn't resolve the issue (or if you know you have a *lo
 
 ## transfer
 
-In [**play**](/docs/norns/play), we loaded loops and recorded our own audio using the **TAPE**. All of the files that you interact with (audio, scripts, presets, etc), live inside a special folder in norns called `dust`.
+In [**play**](/docs/norns/play), we loaded loops and recorded our own audio using the **TAPE**. All of the files that you interact with (audio, scripts, PSETs, etc), live inside a special folder in norns called `dust`.
 
 Here's the `dust` file tree:
 
@@ -183,7 +183,7 @@ norns records 48khz stereo WAV files -- please only import uncompressed 48kHz fi
 
 If you have edited any scripts to your own needs, or written any scripts of your own, please make sure you’ve copied those files to another computer or web repository.
 
-If you have only downloaded scripts from others (or have already backed up your own scripts/modifications) and wish to retain audio files, script presets, midi mappings, etc, simply copy your entire `audio` and `data` folders, which live inside of `dust`, via Samba (as described above) or [SFTP](/docs/norns/advanced-access/#sftp).
+If you have only downloaded scripts from others (or have already backed up your own scripts/modifications) and wish to retain audio files, script PSETs, midi mappings (PMAPs), etc, simply copy your entire `audio` and `data` folders, which live inside of `dust`, via Samba (as described above) or [SFTP](/docs/norns/advanced-access/#sftp).
 
 Restoring from this backup is as simple as copying the contents of the folders from your non-norns computer back to the `/home/we/dust/audio` and `/home/we/dust/data` directories on norns.
 

@@ -570,7 +570,7 @@ It might help to approach these from a user perspective first -- take a minute t
 - parameters surface variables from our code to the norns UI as readable names
 - parameters facilitate MIDI mapping of these variables + recall the mapping when the script is reloaded
 - parameter ID's facilitate OSC control over these variables
-- parameters can be saved through the preset / PSET mechanism, to capture and recall unique script states
+- parameter values can be saved through the PSET mechanism, to capture and recall unique script states
 
 ### defining a parameter
 
@@ -826,9 +826,9 @@ end
 
 This code snippet will print `49` to the REPL, whereas commenting out the `params:bang()` will result in no print at script start.
 
-### presets
+### PSETs
 
-As mentioned at the start of this section, parameters are especially powerful because their states can be saved and restored. While it's easy enough to save, load, and manage presets through the norns UI, perhaps you'll want to play around with preset functions through code.
+As mentioned at the start of this section, parameters are especially powerful because their states can be saved and restored. While it's easy enough to save, load, and manage parameter sets through the norns UI, perhaps you'll want to play around with PSET functions through code.
 
 Run the `parameters pt.3` code and adjust the cutoff value to taste. Let's save this state by executing the following on the command line:
 
@@ -838,7 +838,7 @@ Run the `parameters pt.3` code and adjust the cutoff value to taste. Let's save 
 
 Here's what we did:
 
-- told the `params` system to `write` a new preset (PSET)
+- told the `params` system to `write` a new PSET
 - specified slot `1` as the destination
 - specified `later` as the name for the PSET
 
@@ -852,7 +852,7 @@ You can similarly load any PSET slot with:
 >> params:read(1)
 ```
 
-After a read, the norns system will cycle through every parameter to set its value to the preset's values, but it won't perform the `action` function. In order to pass the preset's values through the parameter's actions, you'll need to include a `params:bang()`, which triggers every parameter.
+After a read, the norns system will cycle through every parameter to set its value to the PSET's values, but it won't perform the `action` function. In order to pass the PSET's values through the parameter's actions, you'll need to include a `params:bang()`, which triggers every parameter.
 
 ```lua
 >> params:read(1)

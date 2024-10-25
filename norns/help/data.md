@@ -34,7 +34,7 @@ For support with specific scripts and libraries, please visit [lines](https://ll
 
 ## back up norns
 
-All data that you create with norns -- scripts you've downloaded or created, audio you've imported or recorded, MIDI mappings and presets, etc -- is stored in a central location: `dust`.
+All data that you create with norns -- scripts you've downloaded or created, audio you've imported or recorded, MIDI mappings and PSETs, etc -- is stored in a central location: `dust`.
 
 ### via WiFi
 
