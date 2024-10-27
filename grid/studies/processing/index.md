@@ -34,9 +34,9 @@ Download the monome-processing library:
 
 [github.com/monome/monome-processing/releases/latest](https://github.com/monome/monome-processing/releases/latest)
 
-Download the oscP5 library:
+Download the oscP5 library (**must** be version 0.9.9):
 
-[sojamo.de/libraries/oscp5](http://www.sojamo.de/libraries/oscp5)
+[github.com/sojamo/oscp5/releases/tag/0.9.9](https://github.com/sojamo/oscp5/releases/tag/0.9.9)
 
 These libraries must be copied to the `libraries` folder of your Sketchbook, which is typically `~/Documents/Processing/` on macOS and `/Documents/Processing/` on Windows.
 
