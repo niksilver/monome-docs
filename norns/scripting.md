@@ -2,7 +2,7 @@
 layout: default
 parent: norns
 has_children: true
-title: norns/scripting
+title: scripting
 nav_order: 7
 has_toc: false
 ---
