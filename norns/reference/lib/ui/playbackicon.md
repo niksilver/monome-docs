@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/lib/ui/playbackicon
+parent: reference/lib/ui
+grand_parent: norns/reference
+has_children: false
 ---
 
 ## Playback Icon

@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/grid
+parent: reference
+grand_parent: norns
+has_children: false
 ---
 
 ## grid

@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/lib/textentry
+parent: reference
+grand_parent: norns
+has_children: false
 ---
 
 ## textentry

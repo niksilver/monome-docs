@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/lib/pattern_time
+parent: reference
+grand_parent: norns
+has_children: false
 ---
 
 ## pattern_time

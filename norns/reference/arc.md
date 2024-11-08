@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/arc
+parent: reference
+grand_parent: norns
+has_children: false
 ---
 
 ## arc

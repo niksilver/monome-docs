@@ -2,6 +2,9 @@
 layout: default
 nav_exclude: true
 permalink: /norns/reference/parameters/control
+parent: reference/params
+grand_parent: norns/reference
+has_children: false
 ---
 
 ## control
