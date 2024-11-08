@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: scripting
+parent: norns/scripting
 grand_parent: norns
 has_children: false
 title: studies
