@@ -171,7 +171,7 @@ The first `ERROR` we see tells us that:
 - one copy is located at: `/home/we/.local/share/SuperCollider/Extensions/exampleFolder/Classes/exampleName.sc`
 - another copy is located at: `/home/we/.local/share/SuperCollider/Extensions/supercollider-plugins/exampleName.sc`
 
-To rectify, you will need to erase one of the two files. For this example, we'll remove the first folder listed by executing the following via maiden's command line (using `exampleFolder` as an example folder name):
+To rectify, you will need to erase one of the two files. For this example, we'll remove the first folder listed by **first** switching back to the `matron` tab of maiden, then executing the following via maiden's command line (using `exampleFolder` as an example folder name):
 
 ```bash
 util.os_capture("rm -r /home/we/.local/share/SuperCollider/Extensions/exampleFolder")
