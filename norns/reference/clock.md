@@ -11,16 +11,16 @@ has_children: false
 
 ### control
 
-| Syntax                         | Description                                                                                         |
-| ------------------------------ | --------------------------------------------------------------------------------------------------- |
-| my_clock = clock.run(function) | Create a coroutine from the given function, assign it `id` =  "my_clock", and immediately run it    |
-| clock.cancel(my_clock)         | Cancel an `id`-assigned coroutine                                                                   |
-| clock.sleep(time)              | Resume in `time` seconds                                                                            |
-| clock.sync(beats, offset)      | Resume at next sync quantum of `beats` (with added `offset`), per global tempo                      |
-| clock.transport.start()        | User script callback whenever norns receives a "start" message (typically via MIDI or Ableton Link) |
-| clock.transport.stop()         | User script callback whenever norns receives a "stop" message (typically via MIDI or Ableton Link)  |
-| clock.tempo_change_handler()   | User script callback whenever the norns tempo changes (corresponds to `PARAMETERS > CLOCK > tempo`) |
-| params:set("clock_tempo", x)   | Set the global clock tempo to `x` bpm, ranges from 1bpm to 300 bpm                                  |
+| Syntax                            | Description                                                  |
+| --------------------------------- | ------------------------------------------------------------ |
+| my_clock = clock.run(function)    | Create a coroutine from the given function, assign it `id` =  "my_clock", and immediately run it |
+| clock.cancel(my_clock)            | Cancel an `id`-assigned coroutine                            |
+| clock.sleep(time)                 | Resume in `time` seconds                                     |
+| clock.sync(beats, offset)         | Resume at next sync quantum of `beats` (with added `offset`), per global tempo |
+| clock.transport.start()           | User script callback whenever norns receives a "start" message (typically via MIDI or Ableton Link) |
+| clock.transport.stop()            | User script callback whenever norns receives a "stop" message (typically via MIDI or Ableton Link) |
+| clock.tempo_change_handler(tempo) | User script callback whenever the norns tempo changes (corresponds to `PARAMETERS > CLOCK > tempo`), passes current `tempo`. |
+| params:set("clock_tempo", x)      | Set the global clock tempo to `x` bpm, ranges from 1bpm to 300 bpm |
 
 ### query
 
