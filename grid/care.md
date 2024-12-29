@@ -69,5 +69,5 @@ Email [help@monome.org](mailto:help@monome.org) with your grid generation and a 
 
 Pricing:
 
-- pre-2021 grids: $40 for each 4x4 pad
+- pre-2021 grids: $30 for each 4x4 pad
 - 2021 and beyond: $60 for each 16x8 pad
