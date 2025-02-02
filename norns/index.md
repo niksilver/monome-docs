@@ -59,6 +59,7 @@ norns is open source and continues to grow with the generous efforts of many con
 - 4 x USB ports for devices, can be expanded with a powered USB hub.
 - supports up to 16 MIDI devices, 4 grids, 4 arcs, 4 HID.
 - serial tty via USB-mini.
+- WiFi capable (Ralink RT5370 chipset necessary for hotspot functionality), adapter included.
 
 **power**
 
