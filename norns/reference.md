@@ -104,9 +104,14 @@ myscript/
     somelib.lua -- arbitrary lib, imported via require 'lib/somelib'
     some-engine.sc -- engine file
     some-engine.lua -- engine lib, require lib/some-engine'
-  docs/ -- more documentation, won't be shown in SELECT
+  docs/ -- more documentation
     more-docs.md
+  test/ -- optional test scripts
+    test-somelib.lua
+    test-some-engine.lua
 ```
+
+Generally, any Lua scripts will appear in norns' SELECT menu. But Lua scripts in folders called `crow`, `data`, `docs`, `lib` or `test` will be hidden from that menu.
 
 ## basic script
 
