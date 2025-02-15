@@ -37,6 +37,8 @@ five hooks:
 * `script_post_cleanup` - called after a script's `cleanup()` function has been
   called, this normally occurs when switching between scripts
 
+Notice that the hooks are for events that happen outside any mods - around the system's startup and shutdown, and around any scripts loading and unloading. So by registering functions with the hooks mods can interact with those things.
+
 Multiple mods can each register their own callback function for a given hook.
 matron will sort the hooks alphabetically before executing them. This allows mods that add parameters to add them in a consistent order -- eg. mods that need all parameters available before executing should start with `~` to ensure they're at the end.
 
